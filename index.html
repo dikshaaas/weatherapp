@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather App</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="weather-container">
+            <h1>Weather App</h1>
+
+            <div class="search-box">
+                <input
+                    type="text"
+                    id="cityInput"
+                    placeholder="Enter a city name"
+                >
+                
+                <button id="searchButton">Search</button>
+            </div>
+
+            <p id="loading"></p>
+            <p id="error"></p>
+
+            <div id="weatherResult">
+                <h2 id="cityName"></h2>
+                <p id="countryName"></p>
+                <p id="temperature"></p>
+                <p id="feelslike"></p>
+                <p id="humidity"></p>
+                <p id="description"></p>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
